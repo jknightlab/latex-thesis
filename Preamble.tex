@@ -1,0 +1,145 @@
+\begin{titlepage}
+   \centering
+   \begin{figure}
+      \centering
+%      \epsfig{file=oxford_logo.eps,width=\textwidth}
+      \includegraphics[scale=0.4]{oxford_logo-eps-converted-to.pdf}
+   \end{figure}
+   {\LARGE{\textbf{This is my thesis title}}}\\ 
+    \vspace{2cm}
+   {\Large{Joe Bloggs}}\\
+   {\Large{Hertford College}}\\
+   {\Large{University of Oxford}}\\
+   \vspace{2cm}   
+   {\Large{\textit{A thesis submitted in partial \\ fulfilment of the requirements for the degree of\\ Doctor of Philosophy}}}\\
+   {\Large{\textit{Trinity Term, 2014}}}
+\end{titlepage}
+
+\newpage
+\chapter*{Abstract} %Creates chapter title but doesn't number
+\addcontentsline{toc}{chapter}{\numberline{}Abstract} %Add abstract to table of contents
+\thispagestyle{plain}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+\pagenumbering{roman} \setcounter{page}{1}
+
+%\vspace*{-1.5cm}
+\begin{center}
+{{\bf This is my thesis title}} \\
+%
+\end{center}
+%\vspace*{-0.5cm}
+\begin{center}
+
+{Joe Bloggs, Hertford College, Trinity Term 2014}\\
+%\end{center}
+%\vspace*{-0.5cm}
+%\begin{center}
+{A thesis submitted in partial fulfilment of the requirements
+for the degree of Doctor of Philosophy of the University of Oxford} \\
+%\end{center}
+%\vspace*{-0.5cm}
+%\begin{center}
+\end{center}
+%\vspace*{-0.5cm}
+
+%\begin{center}
+%{{\large \bf Abstract}}
+%\end{center}
+
+\noindent
+This is my abstract... \\
+
+
+
+
+\newpage
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{\numberline{}Acknowledgements}
+\thispagestyle{plain}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+%\begin{center}
+%{{\large \bf Acknowledgments}}
+%\end{center}
+\noindent
+%
+Thank you, thank you, thank you.
+
+\newpage
+\chapter*{Declarations}
+\addcontentsline{toc}{chapter}{\numberline{}Declarations}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+\thispagestyle{plain}
+%\begin{center}
+%{{\large \bf Declarations}}
+%\end{center}
+\noindent
+I declare that unless otherwise stated, all work presented in this thesis is my own. Several aspects of each project relied upon collaboration where part of the work was conducted by others.
+
+
+\newpage
+\chapter*{Submitted Abstracts}
+\addcontentsline{toc}{chapter}{\numberline{}Submitted Abstracts}
+\thispagestyle{plain} %Removes the header
+%\begin{center}
+%{{\large \bf Associated publications}}
+%\end{center}
+\noindent
+
+\noindent
+\textbf{Title}
+\hfill \textbf{Year}\\
+Authors\\
+
+\newpage
+\chapter*{Associated Publications}
+\addcontentsline{toc}{chapter}{\numberline{}Associated Publications}
+%\pagenumbering{gobble}
+%\thispagestyle{empty}
+\thispagestyle{plain} %Removes the header
+%\begin{center}
+%{{\large \bf Associated publications}}
+%\end{center}
+\noindent
+\textbf{Title}\\
+Journal\\
+Authors\\
+
+\begingroup
+\let\clearpage\relax
+\chapter*{Other Publications}
+\noindent
+\textbf{Title}\\
+Journal\\
+Authors\\
+
+\endgroup
+
+
+\newpage
+\addcontentsline{toc}{chapter}{\numberline{}Contents}
+\tableofcontents
+
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{\numberline{}List of Figures}
+
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{\numberline{}List of Tables}
+
+
+
+\chapter*{Abbreviations}
+\addcontentsline{toc}{chapter}{\numberline{}Abbreviations}
+
+\begin{table}[H]
+\singlespacing
+  \centering
+   \begin{tabular}{@{}m{2.5cm}m{10cm}@{}}
+	  \textbf{Abbreviation} & Definition \\
+    \end{tabular}%
+\end{table}%
+%
