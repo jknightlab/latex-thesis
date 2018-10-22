@@ -360,4 +360,4 @@ http://app.uio.no/ifi/texcount/online.php
 
 [Detexify](http://detexify.kirelabs.org/classify.html) helps you find the code for a symbol
 
-TeXnicCenter can be configured to use  Sumatra pdf reader instead of adobe. This allows forward search (double clicking on a location in the pdf automatically opens TeXnicCenter at the relevant location). See  [here](http://download2.polytechnic.edu.na/pub4/sourceforge/t/te/texniccenter/Tutorials/How_to_Sumatra_EN.pdf) for more information
+TeXnicCenter can be configured to use  Sumatra pdf reader instead of adobe. This allows forward search (double clicking on a location in the pdf automatically opens TeXnicCenter at the relevant location). See  [here](https://sourceforge.net/projects/texniccenter/files/Tutorials/How_to_Sumatra_EN_%282010.03.07%29.pdf/download) for more information
